@@ -83,7 +83,6 @@ def main():
         elif "Exit" in menu:
             break
         else:
-            # Agar direct option number ya string aaye
             choice = menu.lower()
             if 'book' in choice or choice == '1':
                 book_parcel()
